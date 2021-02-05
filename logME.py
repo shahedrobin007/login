@@ -1,4 +1,4 @@
-﻿from getpass import getpass
+from getpass import getpass
 import os
 import time
 
@@ -6,24 +6,26 @@ def menu():
       while True:
            print("")
            os.system("clear")
-           print('\033[1;36;40m<───----------------[ WELCIOME TO CSB WORLD]───────────────>')
+           print('\033[1;36;40m<───────────────[ Termux Login ]───────────────>')
            print('')
-           print(" \033[1;92m  <───────[ CYBER SECQURITY BROKER ]───────>")
+           os.system('date | lolcat')
            print("\033[1;93m")
-           print("  <───────[ Welcome To THE DARK WORLD  ]───────>")
+           print(" \033[1;92m  <───────[ WELCOME TO CSB WORLD ]───────>")
+           print("\033[1;93m")
+           print("  <───────[ NOW YOUR FULLY ANONYMOUS ]───────>")
            print("")
            try:
                 x = str(input('\033[1;92mUsername \033[1;93m: '))
                 print("")
                 e = getpass('\033[1;92mPassword \033[1;93m: ')
                 print ("")
-                if x=="CYBER SECQURITY BROKER" and e=="ACCESS GRANTED":
+                if x=="CUBER SECQURITY BROKER" and e=="ACCESS GRANTED":
                    print('wait...')
-                   time.sleep(0.5)
+                   time.sleep(1)
                    os.system('clear')
                    print('')
                    os.system('figlet ' + x + ' | lolcat')
-                   print('\033[1;92m 01001010101101001010101010111 ')
+                   print('\033[1;92m ────────────────────────────────────── ')
                    print("")
                    break
                 else:
@@ -31,7 +33,7 @@ def menu():
                       print("")
                       print("")
                       print("")
-                      print("\033[1;91m     PASSWORD INCORRECT")
+                      print("\033[1;91m     Wrong Password")
                       time.sleep(2)
                       print("")
            except Exception:
@@ -41,7 +43,7 @@ def menu():
                       print("")
                       print("")
                       print("")
-                      print("\033[1;91m     PASSWORD INCORRECT")
+                      print("\033[1;91m    Wrong password")
                       time.sleep(2)
            except KeyboardInterrupt:
                       print("")
@@ -50,6 +52,6 @@ def menu():
                       print("")
                       print("")
                       print("")
-                      print("\033[1;91m     PASSWORD INCORRECT")
-                      time.sleep(0.5)
+                      print("\033[1;91m     Wrong Password")
+                      time.sleep(2)
 menu()
