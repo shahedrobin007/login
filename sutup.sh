@@ -1,9 +1,3 @@
-apt install figlet
-apt install ruby
-gem install lolcat
-apt install python3
-apt install python2
-pip install requests
-pip2 install requests
+
 apt-get install git
 git clone https://github.com/shahedrobin007/linuxkali
