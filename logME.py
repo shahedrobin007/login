@@ -6,7 +6,7 @@ def menu():
       while True:
            print("")
            os.system("clear")
-           print('\033[1;36;40m<───────────────[ Termux Login ]───────────────>')
+           print('\033[1;36;40m<───────────────[ ACCESS GRANTED ]───────────────>')
            print('')
            os.system('date | lolcat')
            print("\033[1;93m")
